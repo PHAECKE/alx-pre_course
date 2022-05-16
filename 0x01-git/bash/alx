@@ -3,3 +3,7 @@ echo "ALX School"
 git fetch origin
 git checkout -b master origin/master
 git merge update_script
+
+git checkout update_script
+git merge --no-ff master
+git push origin update_script
