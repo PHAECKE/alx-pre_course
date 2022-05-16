@@ -1,2 +1,5 @@
 #!/bin/bash
 echo "ALX School"
+git fetch origin
+git checkout -b master origin/master
+git merge update_script
