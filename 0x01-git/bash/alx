@@ -1,10 +1,17 @@
 #!/bin/bash
-<<<<<<< master
+"this is the marker script"
+"<<<<<<< master
 echo "ALX School is so cool!"
 =======
 echo "ALX School"
+>>>>>>> update_script"
+
+echo "ALX School"
+git fetch origin
+git checkout -b master origin/master
+git merge update_script
 >>>>>>> update_script
-git add .
+
 
 
 "echo "ALX School"
