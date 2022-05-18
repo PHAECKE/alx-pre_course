@@ -3,7 +3,6 @@ echo "ALX School is so cool!"
 "git fetch origin
 git checkout -b master origin/master
 git merge update_script"
-git add .
 git commit
 git commit -m  'Cool, all my changes will be now part of the main branch, ready to be deployed!'
-
+git add .
