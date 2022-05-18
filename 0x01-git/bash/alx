@@ -3,19 +3,19 @@
 "this is the marker script"
 echo "ALX School"
 
-echo "ALX School"
+"echo "ALX School"
 git fetch origin
 git checkout -b master origin/master
-git merge update_script
+git merge update_script"
 
 ">>>>>>> update_script"
 
 "echo "ALX School"
 git fetch origin
 git checkout -b master origin/master
-git merge update_script
+git merge update_script"
 
 git commit -m  'Cool, all my changes will be now part of the main branch, ready to be deployed!'
 git checkout update_script
 git merge --no-ff master
-git push origin update_script"
+git push origin update_script
